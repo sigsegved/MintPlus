@@ -3,7 +3,7 @@ A python CLI to group expenses from Mint for one or more person and create a gro
 
 
 ```
-Usage: MintPlus -p <Path> -n <Names>
+Usage: MintPlus -p <Path> -n <Names> -s <StartDate> -e <EndDate>
 	 -p : Base Path where the csv file exist
 	 -n : Name of people whose accounts are being consolidated
 	      There should be a file for every name provided here under the base path.
