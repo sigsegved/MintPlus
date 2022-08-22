@@ -244,7 +244,7 @@ def main(argv):
     transactions = dict()
     categories = set()
     for name in names:
-        transactions[name] = read_csv(path+name+".csv", categories)
+        transactions[name] = read_csv(path + name + ".csv", categories)
         print(categories)
 
     filtered_transactions, grouped_transactions = filter_transactions(transactions, start_date, end_date)
